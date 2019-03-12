@@ -20,4 +20,5 @@ Wireframe:
 Upload image from my phone of my wireframe
 
 [Timeline and Design](design.md)
+---
 [Wire Frames](wireframe.md)
