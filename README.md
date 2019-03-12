@@ -1,4 +1,4 @@
-## Demo Detail
+# Demo Detail
 I want to make a web application that lets users learn information about how they can detail the item they select on screen. They can select parts ofthe car and then will receive detailing tips for the selected item.
 
 ## Application Definition 
@@ -18,3 +18,5 @@ User will be taken to the main page, where there will be either homepage 1 or ho
 
 Wireframe:
 Upload image from my phone of my wireframe
+
+[Timeline and Design](design.md)
