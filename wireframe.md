@@ -1,4 +1,4 @@
 ### Wire Frames
-![](images/Sub.png)
-![](images/mainView.png)
-![](images/mobileDesktopView.png)
+![](images/Sub.jpg)
+![](images/mainView.jpg)
+![](images/mobileDesktopView.jpg)
