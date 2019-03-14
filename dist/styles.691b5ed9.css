@@ -1,0 +1,37 @@
+#Header{
+    border: solid;
+    border-radius: 3px;
+    border-color: rgb(119, 139, 143);
+    background-color: #DBCFB0;
+    color: #545775;
+    display: flex;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#Navigation {
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(119, 139, 143);
+    color: #545775;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+#Content {
+    background-color: #DBCFB0;
+    display: flex;
+    justify-content: center; 
+}
+
+#Footer {
+    background-color: rgb(119, 139, 143);
+    color: #545775;
+}
+
+/*# sourceMappingURL=/styles.691b5ed9.css.map */
