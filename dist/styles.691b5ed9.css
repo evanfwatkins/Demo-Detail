@@ -1,3 +1,8 @@
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
 #Header{
     border: solid;
     border-radius: 3px;
@@ -13,9 +18,6 @@
 }
 
 #Navigation {
-    border: solid;
-    border-radius: 5px;
-    background-color: rgb(119, 139, 143);
     color: #545775;
     display: flex;
     justify-content: center; 
@@ -24,14 +26,28 @@
 }
 
 #Content {
-    background-color: #DBCFB0;
     display: flex;
     justify-content: center; 
 }
 
 #Footer {
-    background-color: rgb(119, 139, 143);
     color: #545775;
+}
+
+#Interior {
+    background-color: rgb(119, 139, 143);
+    width: 50vh;
+}
+
+#Exterior {
+    background-color: rgb(119, 139, 143);
+    width: 50vh;
+}
+
+.navImg {
+    display: flex;
+    justify-content: center;
+    width: 90%;
 }
 
 /*# sourceMappingURL=/styles.691b5ed9.css.map */
