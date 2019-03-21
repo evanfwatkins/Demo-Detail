@@ -4,6 +4,7 @@ h2 {
     color: red;
     display: flex;
     justify-content: center;
+    padding: 3px;
 }
 
 h3 {
@@ -19,7 +20,7 @@ h3 {
     color: red;
     display: flex;
     font-family: 'Arvo', serif;
-    font-size: 35px;
+    font-size: 25px;
     justify-content: center;
     position: sticky;
     top: 0;
@@ -28,7 +29,25 @@ h3 {
 #Model {
     display: flex;
     justify-content: center;
-    position: fixed;
+    padding-top: 10px;
+}
+
+#pageNav {
+    background-color: black;
+    color: red;
+    display: flex;
+    font-size: 25px;
+    margin-top: 5px;
+    justify-content: center;
+    justify-content: space-around;
+    text-decoration: none;  
+
+}
+
+
+#Content {
+    display: flex;
+    justify-content: center; 
 }
 
 #Navigation {
@@ -36,11 +55,6 @@ h3 {
     justify-content: center; 
     text-decoration: none;
     padding: 10px;
-}
-
-#Content {
-    display: flex;
-    justify-content: center; 
 }
 
 #Footer {
@@ -51,15 +65,21 @@ h3 {
 .navImgInt {
     display: flex;
     justify-content: center;
-    height: 400px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
 }
 
 .navImgExt {
     display: flex;
     justify-content: center;
-    height: 400px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
+}
+
+.intPageImg {
+    display: flex;
+    justify-content: center;
+    height: 75%;
 }
 
 /*# sourceMappingURL=/styles.691b5ed9.css.map */
