@@ -1,3 +1,11 @@
+h2 {
+    border: solid;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
 h3 {
     display: flex;
     justify-content: center;
@@ -7,22 +15,27 @@ h3 {
     border: solid;
     border-radius: 3px;
     border-color: rgb(119, 139, 143);
-    background-color: #DBCFB0;
-    color: #545775;
+    background-color: black;
+    color: red;
     display: flex;
     font-family: 'Arvo', serif;
-    font-size: 50px;
+    font-size: 35px;
     justify-content: center;
     position: sticky;
     top: 0;
 }
 
+#Model {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
 #Navigation {
-    color: #545775;
     display: flex;
     justify-content: center; 
-    justify-content: space-around;
     text-decoration: none;
+    padding: 10px;
 }
 
 #Content {
@@ -34,18 +47,17 @@ h3 {
     color: #545775;
 }
 
-#Interior {
-    background-color: rgb(119, 139, 143);
-    width: 50vh;
-}
 
-#Exterior {
-    background-color: rgb(119, 139, 143);
-    width: 50vh;
-}
-
-.navImg {
+.navImgInt {
     display: flex;
     justify-content: center;
-    width: 90%;
+    height: 400px;
+    width: 450px;
+}
+
+.navImgExt {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 450px;
 }
