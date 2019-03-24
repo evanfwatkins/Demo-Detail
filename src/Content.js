@@ -1,7 +1,10 @@
-export default function Content(){
+import * as pages from './pages';
+
+export default function Content(state){
     return `
     <div id="Content">
-        <h2>Select the interior or extrior of the car to get tips and tricks on how to detail your <car></car></h2>
+        ${pages[state.body]()}
     </div>
-    `;
+
+`;
 }
