@@ -16,7 +16,7 @@ h3 {
 
 li {
     padding: 0px 100px 0px 100px;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 #Header{
@@ -86,14 +86,15 @@ li {
 .intPageImg {
     display: flex;
     justify-content: center;
-    height: 45%;
+    height: 50%;
+    width: 75%;
 }
 
 .extPageImg {
     display: flex;
     justify-content: center;
-    height: 75%;
-    width: 90%;
+    height: 50%;
+    width: 75%;
 }
 
 .linq {
