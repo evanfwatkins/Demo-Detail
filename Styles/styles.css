@@ -8,8 +8,15 @@ h2 {
 }
 
 h3 {
+    background-color: black;
+    color: red;
     display: flex;
     justify-content: center;
+}
+
+li {
+    padding: 0px 100px 0px 100px;
+    list-style-type: none;
 }
 
 #Header{
@@ -79,7 +86,7 @@ h3 {
 .intPageImg {
     display: flex;
     justify-content: center;
-    height: 75%;
+    height: 45%;
 }
 
 .extPageImg {
@@ -87,4 +94,12 @@ h3 {
     justify-content: center;
     height: 75%;
     width: 90%;
+}
+
+.linq {
+    border: solid;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }

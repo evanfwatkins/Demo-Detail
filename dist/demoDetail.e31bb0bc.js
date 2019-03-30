@@ -117,7 +117,18 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"src/Header.js":[function(require,module,exports) {
+})({"src/pages/Home.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Home;
+
+function Home() {
+  return "\n    <div id=\"Header\">\n        <h1>Demo Detail</h1>\n    </div>\n\n    <div id=\"Model\">\n        <form action=\"GET\">\n            <label for=\"year\">Year</label>\n            <input type=\"text\" name=\"year\">\n\n            <label for=\"make\">Make</label>\n            <input type=\"text\" name=\"make\">\n                \n            <label for=\"model\">Model</label>\n            <input type=\"text\" name=\"model\">\n                \n            <input type=\"submit\" value=\"Add My Car\"> \n        </form>\n    </div>\n\n    \n    <div id=\"Content\">\n        <h2>Select the interior or exterior of the car to see how to clean what you select</h2>\n    </div>\n\n    <div id=\"Navigation\">\n        <a href = \"/Interior.html\"> \n            <img class=\"navImgInt\" src = \"https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/performance/focus-st/2018/features/3-2/18_FRD_FCS_G7652017_ST_CarbonFiber_v1_2160x1080.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg\" alt = \"Interior\"/> \n        </a>\n\n        <a href = \"/Exterior.html\"> \n            <img class=\"navImgExt\" src = \"https://www.stage3motorsports.com/assets/images/ap-fst-650-2013-2017-focus-st-agency-power-fender-flares03.jpg\" alt = \"Exterior\"/> \n        </a>\n    </div>\n\n    <div id=\"Footer\">\n        <hr>\n        <h3>Links About Me</h3>\n\n        <ul class=\"linq\">\n            <li>\n                <i class=\"fab fa-github\"></i><a href=\"https://github.com/evanfwatkins\">Git Hub</a>\n            </li>\n            \n            <li>\n                    <i class=\"fab fa-twitter-square\"></i><a href=\"https://twitter.com/Evanwatkins5\"> Twitter</a>\n            </li>\n\n            <li>\n                    <i class=\"fab fa-instagram\"></i><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">Linked In</a>\n            </li>\n        </ul>   \n    </div>\n    ";
+}
+},{}],"src/Header.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -126,7 +137,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = Header;
 
 function Header(title) {
-  return "\n    <div id=\"header\">\n        <h1>".concat(title, "</h1>\n        </div>\n    ");
+  return "\n    <div id=\"header\">\n        <h1>CLICK WHAT YOU WANT TO CLEAN</h1>\n        </div>\n    ";
 }
 },{}],"../../../AppData/Roaming/npm-cache/_npx/3368/node_modules/parcel/node_modules/base64-js/index.js":[function(require,module,exports) {
 'use strict'
@@ -19303,41 +19314,93 @@ function linksBuilder(linksArr) {
 }
 
 function Navigation() {
-  return " \n        <div id=\"Navigation\">\n            <a href = \"pages/Interior.html\" target = \"_self\"> \n                <img class=\"navImgInt\" src = \"https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/performance/focus-st/2018/features/3-2/18_FRD_FCS_G7652017_ST_CarbonFiber_v1_2160x1080.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg\" alt = \"Interior\"/> \n            </a>\n\n            <a href = \"pages/Exterior.html\" target = \"_self\"> \n                <img class=\"navImgExt\" src = \"https://www.stage3motorsports.com/assets/images/ap-fst-650-2013-2017-focus-st-agency-power-fender-flares03.jpg\" alt = \"Exterior\"/> \n            </a>\n        </div>\n    ";
+  return " \n        <div id=\"Navigation\">\n                <img class=\"navImgInt\" src = \"https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/performance/focus-st/2018/features/3-2/18_FRD_FCS_G7652017_ST_CarbonFiber_v1_2160x1080.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg\" alt = \"Interior\"/> \n                <img class=\"navImgExt\" src = \"https://www.stage3motorsports.com/assets/images/ap-fst-650-2013-2017-focus-st-agency-power-fender-flares03.jpg\" alt = \"Exterior\"/> \n            </a>\n        </div>\n    ";
 }
-},{"lodash":"node_modules/lodash/lodash.js"}],"src/pages/Home.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Home;
-
-function Home() {
-  return "\n    <div id=\"Header\">\n        <h1>Demo Detail</h1>\n    </div>\n\n    <div id=\"Model\">\n        <form action=\"GET\">\n            <label for=\"year\">Year</label>\n            <input type=\"text\" name=\"year\">\n\n            <label for=\"make\">Make</label>\n            <input type=\"text\" name=\"make\">\n                \n            <label for=\"model\">Model</label>\n            <input type=\"text\" name=\"model\">\n                \n            <input type=\"submit\" value=\"Add My Car\"> \n        </form>\n    </div>\n\n    \n    <div id=\"Content\">\n        <h2>Select parts of the exterior to see how to clean what you select</h2>\n    </div>\n\n    <div id=\"Navigation\">\n        <a href = \"pages/Interior.html\" target = \"_self\"> \n            <img class=\"navImgInt\" src = \"https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/performance/focus-st/2018/features/3-2/18_FRD_FCS_G7652017_ST_CarbonFiber_v1_2160x1080.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg\" alt = \"Interior\"/> \n        </a>\n\n        <a href = \"".concat('/Exterior.js', "\" target = \"_self\"> \n            <img class=\"navImgExt\" src = \"https://www.stage3motorsports.com/assets/images/ap-fst-650-2013-2017-focus-st-agency-power-fender-flares03.jpg\" alt = \"Exterior\"/> \n        </a>\n    </div>\n\n    <div id=\"Footer\">\n        <h2>Big Stuff Guy</h2>\n        <ul>\n            <li>Stuff</li>\n            <li>More Stuff</li>\n        </ul>\n\n        <h2>Information About Stuff</h2>\n        <ul>\n            <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>\n            <li><a href=\"https://github.com/evanfwatkins/Demo-Detail\">Git Hub</a></li>\n            <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n            <li><a href=\"https://www.instagram.com/watkinst_45/\">Instagram</a></li>\n        </ul>\n    </div>\n    ");
-}
-},{}],"src/pages/Interior.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Exterior;
-
-function Exterior() {
-  return "\n    <div id=\"Header\">\n        <h1>Interior</h1>\n    </div>\n\n    <div id=\"Model\">\n        <form action=\"GET\">\n            <label for=\"year\">Year</label>\n            <input type=\"text\" name=\"year\">\n\n            <label for=\"make\">Make</label>\n            <input type=\"text\" name=\"make\">\n            \n            <label for=\"model\">Model</label>\n            <input type=\"text\" name=\"model\">\n            \n            <input type=\"submit\" value=\"Add My Car\">\n            \n        </form>\n    </div>\n    \n    <div id=\"pageNav\">\n        <a href=\"./\">Back</a>\n    </div>\n\n    <div id=\"Content\">\n        <h2>Select parts of the interior to see how to clean what you select!</h2>\n    </div>\n    \n    <div id=\"Navigation\">\n        <img class=\"intPageImg\" src = \"https://s1.cdn.autoevolution.com/images/news/how-to-clean-and-detail-a-car-interior-55549_1.jpg\" alt = \"Interior\"/> \n    </div>\n    \n    \n    <div id=\"Footer\">\n        <h2>Big Stuff Guy</h2>\n        <ul>\n            <li>Stuff</li>\n            <li>More Stuff</li>\n        </ul>\n        \n        <h2>Information About Stuff</h2>\n        <ul>\n            <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>\n            <li><a href=\"https://github.com/evanfwatkins/Demo-Detail\">Git Hub</a></li>\n            <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n            <li><a href=\"https://www.instagram.com/watkinst_45/\">Instagram</a></li>\n        </ul>\n        \n    </div>\n    ";
-}
+},{"lodash":"node_modules/lodash/lodash.js"}],"src/pages/Interior.js":[function(require,module,exports) {
+// import Home from "./Home";
+// export default function Exterior(){
+//     return `
+//     <div id="Header">
+//         <h1>Interior</h1>
+//     </div>
+//     <div id="Model">
+//         <form action="GET">
+//             <label for="year">Year</label>
+//             <input type="text" name="year">
+//             <label for="make">Make</label>
+//             <input type="text" name="make">
+//             <label for="model">Model</label>
+//             <input type="text" name="model">
+//             <input type="submit" value="Add My Car">
+//         </form>
+//     </div>
+//     <div id="pageNav">
+//         <a href="/">Back</a>
+//     </div>
+//     <div id="Content">
+//         <h2>Select parts of the interior to see how to clean what you select!</h2>
+//     </div>
+//     <div id="Navigation">
+//         <img class="intPageImg" src = "https://s1.cdn.autoevolution.com/images/news/how-to-clean-and-detail-a-car-interior-55549_1.jpg" alt = "Interior"/> 
+//     </div>
+//     <div id="Footer">
+//         <h2>Big Stuff Guy</h2>
+//         <ul>
+//             <li>Stuff</li>
+//             <li>More Stuff</li>
+//         </ul>
+//         <h2>Information About Stuff</h2>
+//         <ul>
+//             <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>
+//             <li><a href="https://github.com/evanfwatkins/Demo-Detail">Git Hub</a></li>
+//             <li><a href="https://www.linkedin.com/in/evan-watkins-9a244b17a/">LinkedIn</a></li>
+//             <li><a href="https://www.instagram.com/watkinst_45/">Instagram</a></li>
+//         </ul>
+//     </div>
+//     `;
+// }
 },{}],"src/pages/Exterior.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Exterior;
-
-function Exterior() {
-  return "\n            <div id=\"Header\">\n                <h1>Exterior</h1>\n            </div>\n    \n            <div id=\"Model\">\n                <form action=\"GET\">\n                    <label for=\"year\">Year</label>\n                    <input type=\"text\" name=\"year\">\n    \n                    <label for=\"make\">Make</label>\n                    <input type=\"text\" name=\"make\">\n                    \n                    <label for=\"model\">Model</label>\n                    <input type=\"text\" name=\"model\">\n                    \n                    <input type=\"submit\" value=\"Add My Car\">\n                    \n                </form>\n            </div>\n            \n            <div id=\"pageNav\">\n                <a href=\"".concat('Home', "\">Back</a>\n            </div>\n\n            <div id=\"Content\">\n                <h2>Select parts of the exterior to see how to clean what you select</h2>\n            </div>\n            \n            <div id=\"Navigation\">\n                <img class=\"extPageImg\" src=\"https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/media/assets/submodel/8136.jpg\" alt=\"Exterior\"> \n            </div>\n            \n            \n            <div id=\"Footer\">\n                <h2>Big Stuff Guy</h2>\n                <ul>\n                    <li>Stuff</li>\n                    <li>More Stuff</li>\n                </ul>\n                \n                <h2>Information About Stuff</h2>\n                <ul>\n                    <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>\n                    <li><a href=\"https://github.com/evanfwatkins/Demo-Detail\">Git Hub</a></li>\n                    <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n                    <li><a href=\"https://www.instagram.com/watkinst_45/\">Instagram</a></li>\n                </ul>\n                \n            </div>\n        ");
-}
+// export default function Exterior(){
+//     return `
+//             <div id="Header">
+//                 <h1>Exterior</h1>
+//             </div>
+//             <div id="Model">
+//                 <form action="GET">
+//                     <label for="year">Year</label>
+//                     <input type="text" name="year">
+//                     <label for="make">Make</label>
+//                     <input type="text" name="make">
+//                     <label for="model">Model</label>
+//                     <input type="text" name="model">
+//                     <input type="submit" value="Add My Car">
+//                 </form>
+//             </div>
+//             <div id="pageNav">
+//                 <a href="./">Back</a>
+//             </div>
+//             <div id="Content">
+//                 <h2>Select parts of the exterior to see how to clean what you select</h2>
+//             </div>
+//             <div id="Navigation">
+//                 <img class="extPageImg" src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/media/assets/submodel/8136.jpg" alt="Exterior"> 
+//             </div>
+//             <div id="Footer">
+//                 <h2>Big Stuff Guy</h2>
+//                 <ul>
+//                     <li>Stuff</li>
+//                     <li>More Stuff</li>
+//                 </ul>
+//                 <h2>Information About Stuff</h2>
+//                 <ul>
+//                     <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>
+//                     <li><a href="https://github.com/evanfwatkins/Demo-Detail">Git Hub</a></li>
+//                     <li><a href="https://www.linkedin.com/in/evan-watkins-9a244b17a/">LinkedIn</a></li>
+//                     <li><a href="https://www.instagram.com/watkinst_45/">Instagram</a></li>
+//                 </ul>
+//             </div>
+//         `;
+// }
 },{}],"src/pages/index.js":[function(require,module,exports) {
 "use strict";
 
@@ -19383,7 +19446,7 @@ var pages = _interopRequireWildcard(require("./pages"));
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function Content(state) {
-  return "\n    <div id=\"Content\">\n        ".concat(pages[state.body](), "\n    </div>\n\n");
+  return "\n    <div id=\"Content\">\n    </div>\n\n";
 }
 },{"./pages":"src/pages/index.js"}],"src/Footer.js":[function(require,module,exports) {
 "use strict";
@@ -19394,7 +19457,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = Footer;
 
 function Footer() {
-  return " \n        <div id=\"Footer\">\n            <h2>More Resourses</h2>\n            <ul>\n                <li>Detail Delivery Phone Number: (636) 699-5757 </li>\n                <li>Chemicals from www.detailkings.com</li>\n            </ul>\n            \n            <h2>Information About Me</h2>\n            <ul>\n                <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>\n                <li><a href=\"https://github.com/evanfwatkins/Demo-Detail\">Git Hub</a></li>\n                <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n                <li><a href=\"https://www.instagram.com/watkinst_45/\">Instagram</a></li>\n            </ul>\n        \n        </div>\n    ";
+  return " \n        <div id=\"Footer\">\n            <h2>More Resourses</h2>\n            <ul>\n                <li>Detail Delivery Phone Number: (636) 699-5757 </li>\n                <li>Chemicals from www.detailkings.com</li>\n            </ul>\n            \n            <h2>Information About Me</h2>\n            <ul>\n                <h3>I've been detailing cars for about 2 years so I have learned some helpful detailing tips. I want to make this application to help people detail their car without spending too much money at a cleaner. </h3>\n                <li><a href=\"https://github.com/evanfwatkins/Demo-Detail\">Git Hub</a></li>\n                <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n                <li><a href=\"https://www.linkedin.com/in/evan-watkins-9a244b17a/\">LinkedIn</a></li>\n            </ul>\n        \n        </div>\n    ";
 }
 },{}],"state/Home.js":[function(require,module,exports) {
 "use strict";
@@ -21114,8 +21177,21 @@ var define;
 !function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):e.Navigo=t()}(this,function(){"use strict";var e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function t(){return!("undefined"==typeof window||!window.history||!window.history.pushState)}function n(e,n,o){this.root=null,this._routes=[],this._useHash=n,this._hash=void 0===o?"#":o,this._paused=!1,this._destroyed=!1,this._lastRouteResolved=null,this._notFoundHandler=null,this._defaultHandler=null,this._usePushState=!n&&t(),this._onLocationChange=this._onLocationChange.bind(this),this._genericHooks=null,this._historyAPIUpdateMethod="pushState",e?this.root=n?e.replace(/\/$/,"/"+this._hash):e.replace(/\/$/,""):n&&(this.root=this._cLoc().split(this._hash)[0].replace(/\/$/,"/"+this._hash)),this._listen(),this.updatePageLinks()}function o(e){return e instanceof RegExp?e:e.replace(/\/+$/,"").replace(/^\/+/,"^/")}function i(e){return e.replace(/\/$/,"").split("/").length}function s(e,t){return i(t)-i(e)}function r(e,t){return function(e){return(arguments.length>1&&void 0!==arguments[1]?arguments[1]:[]).map(function(t){var i=function(e){var t=[];return{regexp:e instanceof RegExp?e:new RegExp(e.replace(n.PARAMETER_REGEXP,function(e,o,i){return t.push(i),n.REPLACE_VARIABLE_REGEXP}).replace(n.WILDCARD_REGEXP,n.REPLACE_WILDCARD)+n.FOLLOWED_BY_SLASH_REGEXP,n.MATCH_REGEXP_FLAGS),paramNames:t}}(o(t.route)),s=i.regexp,r=i.paramNames,a=e.replace(/^\/+/,"/").match(s),h=function(e,t){return 0===t.length?null:e?e.slice(1,e.length).reduce(function(e,n,o){return null===e&&(e={}),e[t[o]]=decodeURIComponent(n),e},null):null}(a,r);return!!a&&{match:a,route:t,params:h}}).filter(function(e){return e})}(e,t)[0]||!1}function a(e,t){var n=t.map(function(t){return""===t.route||"*"===t.route?e:e.split(new RegExp(t.route+"($|/)"))[0]}),i=o(e);return n.length>1?n.reduce(function(e,t){return e.length>t.length&&(e=t),e},n[0]):1===n.length?n[0]:i}function h(e,n,o){var i,s=function(e){return e.split(/\?(.*)?$/)[0]};return void 0===o&&(o="#"),t()&&!n?s(e).split(o)[0]:(i=e.split(o)).length>1?s(i[1]):s(i[0])}function u(t,n,o){if(n&&"object"===(void 0===n?"undefined":e(n))){if(n.before)return void n.before(function(){(!(arguments.length>0&&void 0!==arguments[0])||arguments[0])&&(t(),n.after&&n.after(o))},o);if(n.after)return t(),void(n.after&&n.after(o))}t()}return n.prototype={helpers:{match:r,root:a,clean:o,getOnlyURL:h},navigate:function(e,t){var n;return e=e||"",this._usePushState?(n=(n=(t?"":this._getRoot()+"/")+e.replace(/^\/+/,"/")).replace(/([^:])(\/{2,})/g,"$1/"),history[this._historyAPIUpdateMethod]({},"",n),this.resolve()):"undefined"!=typeof window&&(e=e.replace(new RegExp("^"+this._hash),""),window.location.href=window.location.href.replace(/#$/,"").replace(new RegExp(this._hash+".*$"),"")+this._hash+e),this},on:function(){for(var t=this,n=arguments.length,o=Array(n),i=0;i<n;i++)o[i]=arguments[i];if("function"==typeof o[0])this._defaultHandler={handler:o[0],hooks:o[1]};else if(o.length>=2)if("/"===o[0]){var r=o[1];"object"===e(o[1])&&(r=o[1].uses),this._defaultHandler={handler:r,hooks:o[2]}}else this._add(o[0],o[1],o[2]);else"object"===e(o[0])&&Object.keys(o[0]).sort(s).forEach(function(e){t.on(e,o[0][e])});return this},off:function(e){return null!==this._defaultHandler&&e===this._defaultHandler.handler?this._defaultHandler=null:null!==this._notFoundHandler&&e===this._notFoundHandler.handler&&(this._notFoundHandler=null),this._routes=this._routes.reduce(function(t,n){return n.handler!==e&&t.push(n),t},[]),this},notFound:function(e,t){return this._notFoundHandler={handler:e,hooks:t},this},resolve:function(e){var n,o,i=this,s=(e||this._cLoc()).replace(this._getRoot(),"");this._useHash&&(s=s.replace(new RegExp("^/"+this._hash),"/"));var a=function(e){return e.split(/\?(.*)?$/).slice(1).join("")}(e||this._cLoc()),l=h(s,this._useHash,this._hash);return!this._paused&&(this._lastRouteResolved&&l===this._lastRouteResolved.url&&a===this._lastRouteResolved.query?(this._lastRouteResolved.hooks&&this._lastRouteResolved.hooks.already&&this._lastRouteResolved.hooks.already(this._lastRouteResolved.params),!1):(o=r(l,this._routes))?(this._callLeave(),this._lastRouteResolved={url:l,query:a,hooks:o.route.hooks,params:o.params,name:o.route.name},n=o.route.handler,u(function(){u(function(){o.route.route instanceof RegExp?n.apply(void 0,o.match.slice(1,o.match.length)):n(o.params,a)},o.route.hooks,o.params,i._genericHooks)},this._genericHooks,o.params),o):this._defaultHandler&&(""===l||"/"===l||l===this._hash||function(e,n,o){if(t()&&!n)return!1;if(!e.match(o))return!1;var i=e.split(o);return i.length<2||""===i[1]}(l,this._useHash,this._hash))?(u(function(){u(function(){i._callLeave(),i._lastRouteResolved={url:l,query:a,hooks:i._defaultHandler.hooks},i._defaultHandler.handler(a)},i._defaultHandler.hooks)},this._genericHooks),!0):(this._notFoundHandler&&u(function(){u(function(){i._callLeave(),i._lastRouteResolved={url:l,query:a,hooks:i._notFoundHandler.hooks},i._notFoundHandler.handler(a)},i._notFoundHandler.hooks)},this._genericHooks),!1))},destroy:function(){this._routes=[],this._destroyed=!0,this._lastRouteResolved=null,this._genericHooks=null,clearTimeout(this._listeningInterval),"undefined"!=typeof window&&(window.removeEventListener("popstate",this._onLocationChange),window.removeEventListener("hashchange",this._onLocationChange))},updatePageLinks:function(){var e=this;"undefined"!=typeof document&&this._findLinks().forEach(function(t){t.hasListenerAttached||(t.addEventListener("click",function(n){if((n.ctrlKey||n.metaKey)&&"a"==n.target.tagName.toLowerCase())return!1;var o=e.getLinkPath(t);e._destroyed||(n.preventDefault(),e.navigate(o.replace(/\/+$/,"").replace(/^\/+/,"/")))}),t.hasListenerAttached=!0)})},generate:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=this._routes.reduce(function(n,o){var i;if(o.name===e)for(i in n=o.route,t)n=n.toString().replace(":"+i,t[i]);return n},"");return this._useHash?this._hash+n:n},link:function(e){return this._getRoot()+e},pause:function(){var e=!(arguments.length>0&&void 0!==arguments[0])||arguments[0];this._paused=e,this._historyAPIUpdateMethod=e?"replaceState":"pushState"},resume:function(){this.pause(!1)},historyAPIUpdateMethod:function(e){return void 0===e?this._historyAPIUpdateMethod:(this._historyAPIUpdateMethod=e,e)},disableIfAPINotAvailable:function(){t()||this.destroy()},lastRouteResolved:function(){return this._lastRouteResolved},getLinkPath:function(e){return e.getAttribute("href")},hooks:function(e){this._genericHooks=e},_add:function(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;return"string"==typeof t&&(t=encodeURI(t)),this._routes.push("object"===(void 0===n?"undefined":e(n))?{route:t,handler:n.uses,name:n.as,hooks:o||n.hooks}:{route:t,handler:n,hooks:o}),this._add},_getRoot:function(){return null!==this.root?this.root:(this.root=a(this._cLoc().split("?")[0],this._routes),this.root)},_listen:function(){var e=this;if(this._usePushState)window.addEventListener("popstate",this._onLocationChange);else if("undefined"!=typeof window&&"onhashchange"in window)window.addEventListener("hashchange",this._onLocationChange);else{var t=this._cLoc(),n=void 0,o=void 0;(o=function(){n=e._cLoc(),t!==n&&(t=n,e.resolve()),e._listeningInterval=setTimeout(o,200)})()}},_cLoc:function(){return"undefined"!=typeof window?void 0!==window.__NAVIGO_WINDOW_LOCATION_MOCK__?window.__NAVIGO_WINDOW_LOCATION_MOCK__:o(window.location.href):""},_findLinks:function(){return[].slice.call(document.querySelectorAll("[data-navigo]"))},_onLocationChange:function(){this.resolve()},_callLeave:function(){var e=this._lastRouteResolved;e&&e.hooks&&e.hooks.leave&&e.hooks.leave(e.params)}},n.PARAMETER_REGEXP=/([:*])(\w+)/g,n.WILDCARD_REGEXP=/\*/g,n.REPLACE_VARIABLE_REGEXP="([^/]+)",n.REPLACE_WILDCARD="(?:.*)",n.FOLLOWED_BY_SLASH_REGEXP="(?:/$|$)",n.MATCH_REGEXP_FLAGS="",n});
 
 
+},{}],"src/Model.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Model;
+
+function Model() {
+  return "\n    \n";
+}
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
+
+var _Home = _interopRequireDefault(require("./src/pages/Home"));
 
 var _Header = _interopRequireDefault(require("./src/Header"));
 
@@ -21133,7 +21209,7 @@ var _lodash = require("lodash");
 
 var _navigo = _interopRequireDefault(require("navigo"));
 
-var _pages = require("./src/pages");
+var _Model = _interopRequireDefault(require("./src/Model"));
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
@@ -21143,7 +21219,7 @@ var router = new _navigo.default(location.origin);
 var root = document.querySelector('#root');
 
 function render(state) {
-  root.innerHTML = "\n            ".concat((0, _pages.Home)(state), "\n        ");
+  root.innerHTML = "\n            ".concat((0, _Home.default)(state), "\n        ");
   router.updatePageLinks();
 }
 
@@ -21152,12 +21228,31 @@ function navHandler(params) {
   render(state[destination]);
 }
 
+document.querySelectorAll('#navImgInt').forEach(function (link) {
+  return link.addEventListener('click', function (event) {
+    render(Interior.state);
+  });
+});
+document.querySelectorAll('#navImgExt').forEach(function (link) {
+  return link.addEventListener('click', function (event) {
+    render(Exterior.state);
+  });
+});
+
+function mouseOver() {
+  document.getElementById("extPageImg").style.color = "red";
+}
+
+function mouseOut() {
+  document.getElementById("extPageImg").style.color = "black";
+}
+
 router.on('/:page', navHandler).on('/', function () {
   return navHandler({
     'page': 'Home'
   });
 }).resolve();
-},{"./src/Header":"src/Header.js","./src/Navigation":"src/Navigation.js","./src/Content":"src/Content.js","./src/Footer":"src/Footer.js","./state":"state/index.js","axios":"node_modules/axios/index.js","lodash":"node_modules/lodash/lodash.js","navigo":"node_modules/navigo/lib/navigo.min.js","./src/pages":"src/pages/index.js"}],"../../../AppData/Roaming/npm-cache/_npx/3368/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./src/pages/Home":"src/pages/Home.js","./src/Header":"src/Header.js","./src/Navigation":"src/Navigation.js","./src/Content":"src/Content.js","./src/Footer":"src/Footer.js","./state":"state/index.js","axios":"node_modules/axios/index.js","lodash":"node_modules/lodash/lodash.js","navigo":"node_modules/navigo/lib/navigo.min.js","./src/Model":"src/Model.js"}],"../../../AppData/Roaming/npm-cache/_npx/5040/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -21185,7 +21280,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55721" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64204" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -21360,5 +21455,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/3368/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/5040/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/demoDetail.e31bb0bc.js.map
