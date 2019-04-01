@@ -7,7 +7,7 @@ import * as state from './state';
 import axios from 'axios';
 import { startCase } from 'lodash';
 import Navigo from 'navigo';
-import Model from './src/Model';
+
 
 var router = new Navigo(location.origin);
 var root = document.querySelector('#root');

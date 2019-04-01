@@ -3,22 +3,6 @@ export default function Home(){
     <div id="Header">
         <h1>Demo Detail</h1>
     </div>
-
-    <div id="Model">
-        <form action="GET">
-            <label for="year">Year</label>
-            <input type="text" name="year">
-
-            <label for="make">Make</label>
-            <input type="text" name="make">
-                
-            <label for="model">Model</label>
-            <input type="text" name="model">
-                
-            <input type="submit" value="Add My Car"> 
-        </form>
-    </div>
-
     
     <div id="Content">
         <h2>Select the interior or exterior of the car to see how to clean what you select</h2>
@@ -37,6 +21,7 @@ export default function Home(){
     <div id="Footer">
         <hr>
         <h3>Links About Me</h3>
+
 
         <ul class="linq">
             <li>
