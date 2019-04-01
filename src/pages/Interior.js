@@ -2,11 +2,11 @@
 
 // export default function Exterior(){
 //     return `
-//     <div id="Header">
+//     <div id="header">
 //         <h1>Interior</h1>
 //     </div>
 
-//     <div id="Model">
+//     <div id="model">
 //         <form action="GET">
 //             <label for="year">Year</label>
 //             <input type="text" name="year">
@@ -26,16 +26,16 @@
 //         <a href="/">Back</a>
 //     </div>
 
-//     <div id="Content">
+//     <div id="content">
 //         <h2>Select parts of the interior to see how to clean what you select!</h2>
 //     </div>
     
-//     <div id="Navigation">
+//     <div id="navigation">
 //         <img class="intPageImg" src = "https://s1.cdn.autoevolution.com/images/news/how-to-clean-and-detail-a-car-interior-55549_1.jpg" alt = "Interior"/> 
 //     </div>
     
     
-//     <div id="Footer">
+//     <div id="footer">
 //         <h2>Big Stuff Guy</h2>
 //         <ul>
 //             <li>Stuff</li>

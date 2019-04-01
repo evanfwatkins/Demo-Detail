@@ -1,10 +1,10 @@
 export default function Home(){
     return `
-    <div id="Header">
+    <div id="header">
         <h1>Demo Detail</h1>
     </div>
 
-    <div id="Model">
+    <div id="model">
         <form action="GET">
             <label for="year">Year</label>
             <input type="text" name="year">
@@ -20,11 +20,11 @@ export default function Home(){
     </div>
 
     
-    <div id="Content">
+    <div id="content">
         <h2>Select the interior or exterior of the car to see how to clean what you select</h2>
     </div>
 
-    <div id="Navigation">
+    <div id="navigation">
         <a href = "/Interior.html"> 
             <img class="navImgInt" src = "https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/performance/focus-st/2018/features/3-2/18_FRD_FCS_G7652017_ST_CarbonFiber_v1_2160x1080.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt = "Interior"/> 
         </a>
@@ -34,7 +34,7 @@ export default function Home(){
         </a>
     </div>
 
-    <div id="Footer">
+    <div id="footer">
         <hr>
         <h3>Links About Me</h3>
 

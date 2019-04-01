@@ -1,6 +1,6 @@
 export default function Footer(){
     return ` 
-        <div id="Footer">
+        <div id="footer">
             <h2>More Resourses</h2>
             <ul>
                 <li>Detail Delivery Phone Number: (636) 699-5757 </li>
