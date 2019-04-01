@@ -1,10 +1,10 @@
 // export default function Exterior(){
 //     return `
-//             <div id="Header">
+//             <div id="header">
 //                 <h1>Exterior</h1>
 //             </div>
     
-//             <div id="Model">
+//             <div id="model">
 //                 <form action="GET">
 //                     <label for="year">Year</label>
 //                     <input type="text" name="year">
@@ -24,16 +24,16 @@
 //                 <a href="./">Back</a>
 //             </div>
 
-//             <div id="Content">
+//             <div id="content">
 //                 <h2>Select parts of the exterior to see how to clean what you select</h2>
 //             </div>
             
-//             <div id="Navigation">
+//             <div id="navigation">
 //                 <img class="extPageImg" src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/media/assets/submodel/8136.jpg" alt="Exterior"> 
 //             </div>
             
             
-//             <div id="Footer">
+//             <div id="footer">
 //                 <h2>Big Stuff Guy</h2>
 //                 <ul>
 //                     <li>Stuff</li>

@@ -19,7 +19,7 @@ li {
     /* list-style-type: none; */
 }
 
-#Header{
+#header{
     border: solid;
     border-radius: 3px;
     border-color: rgb(119, 139, 143);
@@ -33,7 +33,7 @@ li {
     top: 0;
 }
 
-#Model {
+#model {
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -52,19 +52,19 @@ li {
 }
 
 
-#Content {
+#content {
     display: flex;
     justify-content: center; 
 }
 
-#Navigation {
+#navigation {
     display: flex;
     justify-content: center; 
     text-decoration: none;
     padding: 10px;
 }
 
-#Footer {
+#footer {
     color: #545775;
 }
 
