@@ -29,16 +29,14 @@ export default function Exterior(){
             </div>
             
             <div id="Navigation">
-                <img usemap="#exterior-map" class="extPageImg" src="https://lh3.googleusercontent.com/ZTDEZmLXFjz_cJPjpKvSDfimak7V5G0sbUPHpzBYsIkAXY4RRrDmMGy2_tc9EPVK_biqjCnlddMQVfinDl3PjQ6yz9glS8NYzjhOBVD55_yY1_jQFBiZw0Pzj_lEiV2Mq02OX7Gn9Ni29eFxt3BlDaf_zcbVc2fo9kDRy_MgLEOOFziLTnhbRyuHAjW7driIn6BWQmiiKFs-KA33O-ArfelXW8TVF98DTcZ1fApSolAEpIitDpr_srvYxPMfWKzFrUsRYZ7J9HQzG7vOVlfwuWAtMp8i1WBm3dezTmvlKV0dB9bTAOXKijOqk1dfk85ZhFWdZF_jPtT31pdQ7RDwjuFnHdp9xQxl7Jr9qEiRk7MHYoS1E_aET_IEDxQ8SH67YHJWdgx-BJJr8jxb9xeI3EydCBrInqy4zrje6xk4a51ppBdzROhTeoyAgB2uwPDvEg11rxHqNpvnJnKqEXWpCcBFEOTHWa0zgWNoIwYfysp47sg2XONd3vbnjTJot-auyoX8Jl-haU5mhYKr-jN0t_dTNxRRnMSWCOS471ldg8HCo8bSSEBjFOzDN5faiuaou_9-sbPudh38QA4EecP40wGeSGbF7Ugh1srMtLj8xfmduMoUp2qqf_JwWAiAe2AkZXlhuJfUQZSrk__NURmWrI-aCdSbXJA=w1375-h920-no" alt="Exterior">
-                src="https://lh3.googleusercontent.com/ZTDEZmLXFjz_cJPjpKvSDfimak7V5G0sbUPHpzBYsIkAXY4RRrDmMGy2_tc9EPVK_biqjCnlddMQVfinDl3PjQ6yz9glS8NYzjhOBVD55_yY1_jQFBiZw0Pzj_lEiV2Mq02OX7Gn9Ni29eFxt3BlDaf_zcbVc2fo9kDRy_MgLEOOFziLTnhbRyuHAjW7driIn6BWQmiiKFs-KA33O-ArfelXW8TVF98DTcZ1fApSolAEpIitDpr_srvYxPMfWKzFrUsRYZ7J9HQzG7vOVlfwuWAtMp8i1WBm3dezTmvlKV0dB9bTAOXKijOqk1dfk85ZhFWdZF_jPtT31pdQ7RDwjuFnHdp9xQxl7Jr9qEiRk7MHYoS1E_aET_IEDxQ8SH67YHJWdgx-BJJr8jxb9xeI3EydCBrInqy4zrje6xk4a51ppBdzROhTeoyAgB2uwPDvEg11rxHqNpvnJnKqEXWpCcBFEOTHWa0zgWNoIwYfysp47sg2XONd3vbnjTJot-auyoX8Jl-haU5mhYKr-jN0t_dTNxRRnMSWCOS471ldg8HCo8bSSEBjFOzDN5faiuaou_9-sbPudh38QA4EecP40wGeSGbF7Ugh1srMtLj8xfmduMoUp2qqf_JwWAiAe2AkZXlhuJfUQZSrk__NURmWrI-aCdSbXJA=w1375-h920-no" usemap="#image-map">
-                <map name="image-map">
-                    <area target="" alt="paint" title="paint" href="" coords="329,260,38,390,39,472,296,512,395,570,435,553,392,507,562,434,766,398,770,410,736,472,659,519,459,564,458,635,258,660,29,586,33,691,366,789,686,788,747,774,777,637,818,540,886,474,927,461,981,514,987,580,984,649,984,666,1245,521,1252,451,1271,391,1304,363,1326,347,1340,371,1334,261,1331,232,1298,206,1298,188,1269,223,977,327,966,228,867,295" shape="poly">
-                    <area target="" alt="window" title="window" href="" coords="607,90,372,244,863,281,953,225,973,222,987,313,1273,210,1286,179,1249,132,1124,76" shape="poly">
-                    <area target="" alt="wheel" title="wheel" href="" coords="896,501,828,548,788,673,782,750,808,833,888,830,939,790,966,727,975,641,973,561,952,521" shape="poly">
-                    <area target="" alt="wheel" title="wheel" href="" coords="1313,359,1284,411,1272,514,1284,552,1338,552,1340,486,1340,450,1341,401,1338,375" shape="poly">
-                    <area target="" alt="headlight" title="headlight" href="" coords="776,405,576,436,400,502,458,541,643,518,734,469" shape="poly">
-                </map>
-            </div>
+                        <img class="extPageImg"
+                        src="https://lh3.googleusercontent.com/ZTDEZmLXFjz_cJPjpKvSDfimak7V5G0sbUPHpzBYsIkAXY4RRrDmMGy2_tc9EPVK_biqjCnlddMQVfinDl3PjQ6yz9glS8NYzjhOBVD55_yY1_jQFBiZw0Pzj_lEiV2Mq02OX7Gn9Ni29eFxt3BlDaf_zcbVc2fo9kDRy_MgLEOOFziLTnhbRyuHAjW7driIn6BWQmiiKFs-KA33O-ArfelXW8TVF98DTcZ1fApSolAEpIitDpr_srvYxPMfWKzFrUsRYZ7J9HQzG7vOVlfwuWAtMp8i1WBm3dezTmvlKV0dB9bTAOXKijOqk1dfk85ZhFWdZF_jPtT31pdQ7RDwjuFnHdp9xQxl7Jr9qEiRk7MHYoS1E_aET_IEDxQ8SH67YHJWdgx-BJJr8jxb9xeI3EydCBrInqy4zrje6xk4a51ppBdzROhTeoyAgB2uwPDvEg11rxHqNpvnJnKqEXWpCcBFEOTHWa0zgWNoIwYfysp47sg2XONd3vbnjTJot-auyoX8Jl-haU5mhYKr-jN0t_dTNxRRnMSWCOS471ldg8HCo8bSSEBjFOzDN5faiuaou_9-sbPudh38QA4EecP40wGeSGbF7Ugh1srMtLj8xfmduMoUp2qqf_JwWAiAe2AkZXlhuJfUQZSrk__NURmWrI-aCdSbXJA=w1375-h920-no" usemap="#ext-map">
+                        <map name="ext-map">
+                            <area target="" alt="Window" title="Window" href="http://www.ecotouch.net/auto-glass-cleaning-tips-for-sparkling-clean-windows-and-mirrors/" coords="611,88,334,259,887,282,989,290,1163,252,1275,206,1280,167,1223,116,1116,91" shape="poly">
+                            <area target="" alt="Paint" title="Paint" href="https://www.yourmechanic.com/article/how-to-care-for-the-paint-on-your-car-by-cheryl-knight" coords="320,267,44,383,41,442,13,571,25,725,395,817,658,805,734,771,800,593,853,502,936,473,978,555,983,651,978,681,1252,514,1277,412,1309,347,1330,358,1342,382,1342,332,1336,257,1320,219,1295,199,1281,219,944,337,936,298" shape="poly">
+                            <area target="" alt="Wheels" title="Wheels" href="https://dawn-dish.com/en-us/how-to-clean/clean-tire-rims-and-wheels" coords="1273,475,1273,457,1282,443,1299,397,1309,363,1337,379,1352,430,1359,470,1353,506,1343,521,1302,554,1272,568,1224,593,1189,605,1113,663,840,841,757,800,773,698,813,589,871,506,932,485,975,593,965,692,1269,512" shape="poly">
+                        </map>  
+                </div>
 
             </div>
             

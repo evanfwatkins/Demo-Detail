@@ -28,16 +28,16 @@ export default function Exterior(){
         <h2>Select parts of the interior to see how to clean what you select!</h2>
     </div>
     
-    <div id="navigation">
-        <img class="intPageImg"
-        src="https://s1.cdn.autoevolution.com/images/news/how-to-clean-and-detail-a-car-interior-55549_1.jpg" usemap="#int-map">
-        <map name="int-map">
-            <area target="" alt="Carpet" title="Carpet" href="" coords="903,1004,1006,998,1057,1007,1150,1000,1217,994,1265,994,1310,981,1342,946,1375,889,1385,844,1307,794,1214,742,1170,697,931,695,968,762,946,851" shape="poly">                    
-            <area target="" alt="Carpet" title="Carpet" href="" coords="415,770,406,800,396,847,380,910,376,950,426,990,498,1004,515,1004,469,863,458,819" shape="poly">
-            <area target="" alt="Plastic" title="Plastic" href="" coords="1047,206,964,197,920,202,854,177,803,217,429,174,476,254,519,280,546,321,550,344,563,387,592,407,656,413,726,406,759,411,784,444,799,471,829,514,849,561,856,580,863,610,889,647,900,668,1011,682,1116,681,1171,677,1190,715,1237,745,1350,818,1393,795,1487,520,1478,438,1360,329,1277,276" shape="poly">
-            <area target="" alt="Window" title="Window" href="" coords="435,7,449,168,848,218,893,179,1269,251,1129,175,856,45" shape="poly">
-            <area target="" alt="seat" title="seat" href="" coords="276,23,329,27,368,78,376,192,449,276,495,326,518,412,538,451,695,415,736,439,765,482,777,513,910,790,872,907,837,988,396,1003,282,719,175,533,154,348,148,257,141,101,135,31,136,0" shape="poly">                
-        </map>                    
+    <div id="Navigation">
+    <img class="intPageImg"
+    src="https://s1.cdn.autoevolution.com/images/news/how-to-clean-and-detail-a-car-interior-55549_1.jpg" usemap="#int-map">
+    <map name="int-map">
+            <area target="" alt="Carpet" title="Carpet" href="https://www.goldeagle.com/tips-tools/diy-auto-detailing-how-clean-car-carpet-and-floor-mats/" coords="903,1004,1006,998,1057,1007,1150,1000,1217,994,1265,994,1310,981,1342,946,1375,889,1385,844,1307,794,1214,742,1170,697,931,695,968,762,946,851" shape="poly">                    
+            <area target="" alt="Carpet" title="Carpet" href="https://www.goldeagle.com/tips-tools/diy-auto-detailing-how-clean-car-carpet-and-floor-mats/" coords="415,770,406,800,396,847,380,910,376,950,426,990,498,1004,515,1004,469,863,458,819" shape="poly">
+            <area target="" alt="Plastic" title="Plastic" href="https://www.detailcentralave.com/what-is-the-best-thing-to-clean-car-dashboard/" coords="1047,206,964,197,920,202,854,177,803,217,429,174,476,254,519,280,546,321,550,344,563,387,592,407,656,413,726,406,759,411,784,444,799,471,829,514,849,561,856,580,863,610,889,647,900,668,1011,682,1116,681,1171,677,1190,715,1237,745,1350,818,1393,795,1487,520,1478,438,1360,329,1277,276" shape="poly">
+            <area target="" alt="Window" title="Window" href="http://www.ecotouch.net/auto-glass-cleaning-tips-for-sparkling-clean-windows-and-mirrors/" coords="435,7,449,168,848,218,893,179,1269,251,1129,175,856,45" shape="poly">
+            <area target="" alt="seat" title="seat" href="https://www.best-auto-detailing-tips.com/how-to-clean-car-upholstery.html" coords="276,23,329,27,368,78,376,192,449,276,495,326,518,412,538,451,695,415,736,439,765,482,777,513,910,790,872,907,837,988,396,1003,282,719,175,533,154,348,148,257,141,101,135,31,136,0" shape="poly">                
+        </map>                     
 </div>
 
     </div>
