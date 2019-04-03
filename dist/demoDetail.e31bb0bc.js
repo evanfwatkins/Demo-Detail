@@ -19386,25 +19386,6 @@ function navHandler(params) {
   render(state[destination]);
 }
 
-document.querySelectorAll('#navImgInt').forEach(function (link) {
-  return link.addEventListener('click', function (event) {
-    render(Interior.state);
-  });
-});
-document.querySelectorAll('#navImgExt').forEach(function (link) {
-  return link.addEventListener('click', function (event) {
-    render(Exterior.state);
-  });
-});
-
-function mouseOver() {
-  document.getElementById('extPageImg').style.color = 'red';
-}
-
-function mouseOut() {
-  document.getElementById('extPageImg').style.color = 'black';
-}
-
 router.on('/:page', navHandler).on('/', function () {
   return navHandler({
     'page': 'Home'

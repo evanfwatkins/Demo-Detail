@@ -44,7 +44,7 @@ export default function Exterior(){
     
     
     <div id="footer">
-            <div class="carpet">
+            <div id="carpet">
             <h1>Carpet and Floor matts</h1>
             <ol>
                 <li>First take all of the matts out of the car and set them aside</li>
@@ -56,7 +56,7 @@ export default function Exterior(){
             </ol>
         </div>
 
-        <div class="seat">
+        <div id="seat">
             <h1>Seats</h1>
             <ol>
                 <li>Vaccum the carpets of any loose dirt or debris</li>
@@ -68,7 +68,7 @@ export default function Exterior(){
             </ol>
         </div>
 
-        <div class="dash">
+        <div id="dash">
             <h1>Interior Plastics & Dash</h1>
             <ol>
                 <li>First vaccum any loose dirt, dust, hair, or debris from all of the platic surfaces</li>
@@ -79,7 +79,7 @@ export default function Exterior(){
             </ol>
         </div>
 
-        <div class="window">
+        <div id="window">
                 <h1>Windows</h1>
                 <ol>
                     <li>If possible do not clean the windows in the sun. Try finding some shade or doing it indoors</li>

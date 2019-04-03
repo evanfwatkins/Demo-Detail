@@ -25,22 +25,6 @@ function navHandler(params){
     render(state[destination]);
 }
 
-document.querySelectorAll('#navImgInt').forEach((link) => link.addEventListener('click', (event) => {
-    render(Interior.state);
-}));
-
-document.querySelectorAll('#navImgExt').forEach((link) => link.addEventListener('click', (event) => {
-    render(Exterior.state);
-}));
-
-
-function mouseOver(){
-    document.getElementById('extPageImg').style.color = 'red';
-}
-
-function mouseOut(){
-    document.getElementById('extPageImg').style.color = 'black';
-}
 
 
 router
